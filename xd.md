@@ -1,3 +1,4 @@
+
 # Dokumentacja projektu "MasterMind"
 
 Niniejszy dokument stanowi dokumentację projektu MasterMind tworzonego w ramach przedmiotu Technologie Obiektowe.
@@ -16,13 +17,13 @@ Spis Treści
  3. [Środowisko](#3-środowisko) 
  4. [Diagram UML](#4-diagram-uml)
  5. [Poszczególne elementy aplikacji](#5-poszczególne-elementy-aplikacji) 
-		 AppNavigator
-		 Menu
-		 Ekran gry  
-		 Logowanie/Rejestracja
-		 Ekran statystyk
-		 System powiadomień 
-		 Drag and Drop
+		 - AppNavigator
+		 - Menu
+		 - Ekran gry  
+		 - Logowanie/Rejestracja
+		 - Ekran statystyk
+		 - System powiadomień 
+		 - Drag and Drop
  6. Model  danych
 
 
@@ -33,7 +34,7 @@ Celem projektu jest stworzenie aplikacji umożliwiającej użytownikowi przeprow
 
   
 
-## 2.  Działanie aplikacji
+## 2. Działanie aplikacji
     
 
 Po uruchomieniu aplikacji pojawia się menu, w którym użytkownik może wybrać poziom trudności gry, wejść w statystyki oraz wybrać jedną z dwóch dostępnych opcji: zalogować się lub dokonać rejestracji. W obu przypadkach na ekranie pojawia się okno logowania/rejestracji w którym użytkownik może wpisać potrzebne dane. Po autentykacji, okno to zamyka się i z powrotem jesteśmy w menu. Po naciśnięciu przycisku “start” gra rozpoczyna się.
@@ -56,7 +57,7 @@ Z menu głównego istnieje również możliwość przejścia do widoku statystyk
   
   
 
-## 3.  Środowisko
+## 3. Środowisko
     
 
   
@@ -65,7 +66,7 @@ Gra będzie miała charakter gry wolnostojącej napisanej w języku java, przy p
 
   
 
-## 4.  Diagram UML
+## 4. Diagram UML
     
 
   
@@ -100,13 +101,13 @@ W celu ułatwienia interpretacji diagramu UML, poniżej przedstawiamy podział k
   
   
 
-## 5.  Poszczególne elementy aplikacji
+## 5. Poszczególne elementy aplikacji
     
 
   
   
 
-### 5.1.  AppNavigator
+### 5.1. AppNavigator
     
 
 ![](https://lh6.googleusercontent.com/QYXnLs92U45X3e2zjcuQfJyIFBzqrSC3xGh-lruTEXatbYAPUmxB9-BPn700bOY4UaAa05Zr440QYhYZho2bcStCfOIu0aiuvVwRYat2ijf5qY5djidImtN6eTfelqmsfATsr1__)
@@ -132,7 +133,7 @@ Klasy typu Presenter i Controller zawierają również instancje AppNavigatora -
   
   
 
-### 2.  Menu
+### 2. Menu
     
 
   
@@ -167,7 +168,7 @@ Klasa ta posiada atrybuty user i difficulty - te dwa aspekty gry są już ustala
   
   
 
-3.  ## Ekran gry
+### 3. Ekran gry
     
 
   
@@ -188,7 +189,7 @@ Klasa GameModel zawiera obiekty klasy Game i GameDao - dzięki temu możliwa jes
   
   
 
-4.  ## Logowanie/Rejestracja
+### 4. Logowanie/Rejestracja
     
 
   
@@ -197,7 +198,7 @@ Podobnie jak w przypadku ekranu gry, w celu realizacji zarówno logowania, jak i
 
   
 
-5.  ## Ekran rankingu
+### 5. Ekran rankingu
     
 
   
@@ -206,7 +207,7 @@ Analogicznie jak w podpunkcie dotyczącym obsługi głównego menu gry, zastosow
 
   
 
-6.  ## Ekran statystyk
+### 6. Ekran statystyk
     
 
   
@@ -215,7 +216,7 @@ W przypadku ekranu pokazującego statystyki zalogowanego gracza wykorzystywany j
 
   
 
-7.  ## System powiadomień
+### 7. System powiadomień
     
 
   
@@ -224,7 +225,7 @@ Aby zrealizować system powiadomień, który wysłałby maile z informacją o zm
 
   
 
-8.  ## Drag and Drop
+### 8. Drag and Drop
     
 
   
@@ -256,7 +257,7 @@ Klasa SlotRowView tworzy rząd z podanej ilości miejsc (ColorSlotView) oraz dod
   
   
 
-6.  # Baza danych
+## 6. Baza danych
     
 
   
