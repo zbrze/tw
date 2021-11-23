@@ -16,13 +16,13 @@ Spis Treści
  2. [Działanie aplikacji ](#2-działanie-aplikacji)
  3. [Środowisko](#3-środowisko) 
  4. [Diagram UML](#4-diagram-uml)
- 5. [Poszczególne elementy aplikacji](#5-poszczególne-elementy-aplikacji) 
-		 * AppNavigator  
-		 * Menu  
+ 5. [Poszczególne elementy aplikacji](#5-poszczególne-elementy-aplikacji)   
+		 - AppNavigator 
+		 - Menu  
 		 - Ekran gry  
-		 - Logowanie/Rejestracja
-		 - Ekran statystyk
-		 - System powiadomień 
+		 - Logowanie/Rejestracja  
+		 - Ekran statystyk  
+		 - System powiadomień  
 		 - Drag and Drop
  6. Model  danych
 
