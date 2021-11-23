@@ -17,8 +17,8 @@ Spis Treści
  3. [Środowisko](#3-środowisko) 
  4. [Diagram UML](#4-diagram-uml)
  5. [Poszczególne elementy aplikacji](#5-poszczególne-elementy-aplikacji) 
-		 - AppNavigator
-		 - Menu
+		 * AppNavigator
+		 * Menu
 		 - Ekran gry  
 		 - Logowanie/Rejestracja
 		 - Ekran statystyk
